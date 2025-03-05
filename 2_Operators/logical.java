@@ -11,16 +11,16 @@ public class logical {
 
         System.out.println((5 < 10) && (10 < 12)); // This one is the only true one couse it have both the options right
         System.out.println((5 < 10) && (10 > 12));
-        System.out.println((5 > 10) && (10 > 12));
+        // System.out.println((5 > 10) && (10 > 12));
         System.out.println((5 < 10) && (10 > 12));
 
         // In Logical OR Opperatore if both of the condition is FALSE then only the
         // condition will be FALSE otherwise it will be TRUE
 
         System.out.println((5 > 10) || (10 > 12)); // This one is the only FALSE one couse it have both the options WRONG
-        System.out.println((5 < 10) || (10 > 12));
+        // System.out.println((5 < 10) || (10 > 12));
         System.out.println((5 > 10) || (10 < 12));
-        System.out.println((5 < 10) || (10 > 12));
+        // System.out.println((5 < 10) || (10 > 12));
 
         // In Logical NOT Opperatore The Opperatore will change the statement completly opposite of it 
         // if the statement is TRUE it will change it into FALSE and same as if the conition is FALSE it will change it into TRUE 
