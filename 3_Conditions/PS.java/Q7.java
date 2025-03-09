@@ -38,7 +38,7 @@ public class Q7 {
                 System.out.println("TUESDAY");
                 break;
         
-            case 3:
+            case 3: // Case for day 3
                 System.out.println("WEDNESDAY");
                 break;
         
