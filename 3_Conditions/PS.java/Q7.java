@@ -42,11 +42,11 @@ public class Q7 {
                 System.out.println("WEDNESDAY");
                 break;
         
-            case 4:
+            case 4: // Case for day 4
                 System.out.println("THURSDAY");
                 break;
         
-            case 5:
+            case 5: // Case for day 5
                 System.out.println("FRIDAY");
                 break;
         
