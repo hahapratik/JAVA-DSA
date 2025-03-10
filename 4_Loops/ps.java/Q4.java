@@ -7,7 +7,7 @@ public class Q4 {
     public static void main(String[] args) {
         // Step 1: Declaration and Initialization
         // Initialize an integer 'n' with the value 2042004.
-        int n = 2042004;
+        int n = 10899;
 
         // Step 2: Processing Using a While Loop
         // The loop executes as long as 'n' is greater than 0.
