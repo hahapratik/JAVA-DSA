@@ -1,6 +1,11 @@
 
 import java.util.Scanner;
-
+/*
+ * Q1: Print Integers from n to m
+ * 
+ * This program reads two integers from the user. It then uses a while
+ * loop to print all integers starting from n and incrementing until m.
+ */
 // Read an integer from the console and assign it to n
 // This is the main class
 public class Q1 {

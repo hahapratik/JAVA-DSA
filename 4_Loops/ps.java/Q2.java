@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Q2 {
     public static void main(String[] args) {
 
@@ -16,7 +15,7 @@ public class Q2 {
     n = sc.nextInt();
     // while loop to iterate from 1 to n
     while (i <= n) {
-    sum = sum + i;
+    sum += i;
     i++;
     }
     // closing the scanner object
