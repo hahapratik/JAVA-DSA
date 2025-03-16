@@ -31,6 +31,6 @@ public class Q8 {
         System.out.print("Sum of odd Number : " + oddSum);
         
         // Printing the sum of even numbers
-        System.out.print("Sum of Even Number : " + evenSum);
+        System.out.println("Sum of Even Number : " + evenSum);
     }
 }
