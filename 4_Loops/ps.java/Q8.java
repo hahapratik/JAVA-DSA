@@ -28,7 +28,7 @@ public class Q8 {
         } while (choice == 1); // Continue the loop if the user enters 1
         
         // Printing the sum of odd numbers
-        System.out.print("Sum of odd Number : " + oddSum);
+        System.out.println("Sum of odd Number : " + oddSum);
         
         // Printing the sum of even numbers
         System.out.println("Sum of Even Number : " + evenSum);
