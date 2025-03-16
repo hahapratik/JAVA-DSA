@@ -13,6 +13,7 @@ public class Q9Factorial {
                 fact *= i; // Multiply fact by i in each iteration
             }
         }
-        System.out.println("FACTORIAL : " + fact); // Print the factorial of the number
+        System.out.println("FACTORIAL : " + fact); 
+        sc.close();// Print the factorial of the number
     }
 }
