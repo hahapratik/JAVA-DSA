@@ -14,7 +14,7 @@ public class Q2 {
     // taking input from user
     n = sc.nextInt();
     // while loop to iterate from 1 to n
-    while (i <= n) {
+    while (i <= n) { // nothing
     sum += i;
     i++;
     }
