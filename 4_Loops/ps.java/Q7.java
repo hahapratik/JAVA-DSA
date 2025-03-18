@@ -6,7 +6,7 @@ public class Q7 {
             // Print "HELLO" to the console
             System.out.println("HELLO");
             // Increment i by 2
-            i += 2;
+            i += 1;
         }
     }
 }
