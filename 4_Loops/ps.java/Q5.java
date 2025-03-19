@@ -11,3 +11,4 @@ public class Q5 {
         System.out.println(rev);
     }
 }
+
