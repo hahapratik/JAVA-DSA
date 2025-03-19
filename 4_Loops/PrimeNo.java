@@ -18,6 +18,6 @@ public class PrimeNo {
             System.out.println(" is prime"); // Print that n is prime
         } else {
             System.out.println(" is not prime"); // Otherwise, print that n is not prime
-        }
+        }//commet
     }
 }
