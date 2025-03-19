@@ -17,7 +17,7 @@ public class Q2 {
     while (i <= n) { // nothing
     sum += i;
     i++;
-    }
+    }// while llop hase done
     // closing the scanner object
     sc.close();
     // printing the sum
