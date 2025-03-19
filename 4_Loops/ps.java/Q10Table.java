@@ -18,5 +18,6 @@ public class Q10Table {
                 System.out.println(n + " * " + i + " = " + n * i);
             }
         }sc.close();
+        // now here closing the scanner
     }
 }
