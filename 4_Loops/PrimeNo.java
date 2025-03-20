@@ -19,5 +19,7 @@ public class PrimeNo {
         } else {
             System.out.println(" is not prime"); // Otherwise, print that n is not prime
         }//commet
+        sc.close();
+        // closing the scanner
     }
 }
