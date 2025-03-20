@@ -10,7 +10,7 @@ public class PrePost {
         int c = 10;
         int d = c--;
         // a++ => a= a+1;
-        System.out.println("c: " + c);
+        System.out.println("c: " + c);//system out
         System.out.println("d: " + d);
 
     }
