@@ -11,7 +11,7 @@ public class PrePost {
         int d = c--;
         // a++ => a= a+1;
         System.out.println("c: " + c);//system out
-        System.out.println("d: " + d);
+        System.out.println("d: " + d);//print
 
     }
 }
