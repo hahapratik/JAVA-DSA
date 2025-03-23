@@ -5,9 +5,9 @@
 public class First {
     public static void main(String[] args) {
         // Loop through each line
-        for(int line = 1; line <= 4; line++){
+        for (int line = 1; line <= 4; line++) {
             // Loop to print the required number of stars for the current line
-            for(int star = 1; star <= line; star++){
+            for (int star = 1; star <= line; star++) {
                 System.out.print(" *"); // Print a star
             }
             System.out.println(); // Move to the next line after printing stars for the current line
