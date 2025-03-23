@@ -26,21 +26,22 @@
 
 public class Q3 {
     public static void main(String[] args) {
-        int stars = 1;
+        // int stars = 1;
 
-        // for (int stars = 1; stars <= 4; stars++) {
-        //     System.out.println("* * * *");
+        for (int stars = 1; stars <= 4; stars++) {
+            System.out.println("* * * *");
         
-        // while (stars<=4) {
+        // // while (stars<=4) {
+        // //     System.out.println("* * * *");
+        // //     stars++;
+        // // }
+
+        // do {
         //     System.out.println("* * * *");
         //     stars++;
-        // }
-
-        do {
-            System.out.println("* * * *");
-            stars++;
-        } while (stars <= 4);
+        // } while (stars <= 4);
     }
+}
 }
 
 

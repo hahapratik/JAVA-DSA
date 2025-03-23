@@ -32,5 +32,6 @@ public class Q8 {
         
         // Printing the sum of even numbers
         System.out.println("Sum of Even Number : " + evenSum);
+        sc.close();
     }
 }
