@@ -6,8 +6,7 @@ public class Multiplication {
     /**
      * Multiplies two integers and prints the result.
      *
-     * @param a the first integer to be multiplied
-     * @param b the second integer to be multiplied
+     *b the second integer to be multiplied
      * @return the product of a and b
      */
     public static int mul(int a, int b) {
