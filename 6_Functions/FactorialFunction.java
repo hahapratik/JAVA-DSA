@@ -13,9 +13,7 @@ public class FactorialFunction {
      * 3. Multiply `f` by the current loop index `i` in each iteration to compute the factorial.
      * 4. Return the computed factorial value.
      * 
-     * @param n The number for which the factorial is to be calculated.
-     *          It should be a non-negative integer.
-     * @return The factorial of the given number `n`.
+     *
      */
     public static int factorial(int n) {
         int f = 1; // Initialize factorial result to 1.
