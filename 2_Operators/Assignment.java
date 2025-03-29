@@ -12,6 +12,7 @@ public class Assignment {
         // What it did it just shorten the steps of writing of it
         // we can just write a+=5 as in place of a = a+5 both of them is equal
         // We can use it in any opperatation as + , - , * , % , / in every opperation to
+        
         // make them shorter
         System.out.println(b *= 2);  // It will Multiply the variable with 2 
         System.out.println(c -= 2); // It will Minus the variable with 2 
