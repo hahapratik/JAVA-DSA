@@ -33,4 +33,5 @@ public class Q1 {
         // Closing the Scanner object to release resources
         sc.close();
     }
+    
 }
