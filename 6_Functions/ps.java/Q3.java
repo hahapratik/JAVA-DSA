@@ -5,7 +5,7 @@ public class Q3 {
     public static void main(String[] args) {
         int n;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number : ");
+        System.out.print("Enter the number :");
         n = sc.nextInt();
 
         if (isPalindrome(n)) {
