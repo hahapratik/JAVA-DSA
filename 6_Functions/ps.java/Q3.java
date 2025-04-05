@@ -19,7 +19,7 @@ public class Q3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number :");
         n = sc.nextInt();
-
+        sc.close();
         /**
          * Step 4: Call the `isPalindrome` method to check if the number is a palindrome.
          * Step 5: Print the result based on the boolean value returned by `isPalindrome`.
@@ -29,7 +29,7 @@ public class Q3 {
         } else {
             System.out.println("Number : " + n + " is not a Palindrome");
         }
-    }
+    } 
 
     /**
      * Method: isPalindrome
@@ -44,6 +44,7 @@ public class Q3 {
          * Step 1: Store the original number in a variable `Palindrome`.
          * Step 2: Initialize a variable `reverse` to 0 to store the reversed number.
          */
+        ;
         int Palindrome = num;
         int reverse = 0;
 
@@ -70,5 +71,6 @@ public class Q3 {
          * Step 5: If the loop completes and no match is found, return false.
          */
         return false;
+       
     }
 }
