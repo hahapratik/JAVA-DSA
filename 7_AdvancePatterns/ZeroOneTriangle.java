@@ -1,38 +1,30 @@
-/**
- * ZeroOneTriangle
- * 
- * This program generates a pattern of a triangle consisting of 0s and 1s.
- * The pattern alternates between 0 and 1 based on the sum of the row and column indices.
- * 
- * Example for n = 5:
- * 1
- * 0 1
- * 1 0 1
- * 0 1 0 1
- * 1 0 1 0 1
- * 
- * Steps:
- * 1. The method `zeroOneTriangle` takes an integer `n` as input, which represents the number of rows in the triangle.
- * 2. A nested loop is used to iterate through rows and columns to generate the pattern.
- * 3. The condition `(i + j) % 2 == 0` determines whether to print "1" or "0".
- * 4. The `main` method calls the `zeroOneTriangle` method with a sample input of 5.
- */
+// Importing the required package for input-output operations
+// This allows the program to use System.out for printing to the console.
 public class ZeroOneTriangle {
+
+    // Method to print a zero-one triangle pattern
     public static void zeroOneTriangle(int n) {
+        // Outer loop for the number of rows (1 to n)
         for (int i = 1; i <= n; i++) {
+            // Inner loop for the number of columns in the current row (1 to i)
             for (int j = 1; j <= i; j++) {
+                // Check if the sum of the current row and column indices is even
                 if ((i + j) % 2 == 0) {
+                    // Print "1" if the sum is even
                     System.out.print("1 ");
                 } else {
+                    // Print "0" if the sum is odd
                     System.out.print("0 ");
                 }
             }
+            // Move to the next line after completing the current row
             System.out.println();
         }
-
     }
 
+    // Main method: Entry point of the program
     public static void main(String[] args) {
+        // Call the zeroOneTriangle method with n = 5 to print a triangle of 5 rows
         zeroOneTriangle(5);
     }
 }
