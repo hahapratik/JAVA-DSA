@@ -57,6 +57,7 @@ public class InvertedHalfPyramidNumber {
 
     // Main method to execute the program
     public static void main(String[] args) {
+        // trying the scanner thing in methods for the first time and yes its sccess
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
             int a = sc.nextInt();
