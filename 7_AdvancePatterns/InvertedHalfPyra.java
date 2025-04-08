@@ -1,4 +1,4 @@
-
+public class InvertedHalfPyra
 // Define the class for the program
 public class InvertedHalfPyramidNumber {
 
