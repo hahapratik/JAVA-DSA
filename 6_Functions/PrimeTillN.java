@@ -54,6 +54,6 @@ public class PrimeTillN {
      */
     public static void main(String[] args) {
         // Call the PrimeInRange method to print all prime numbers up to 100.
-        PrimeInRange(100);
+        PrimeInRange(10);
     }
 }

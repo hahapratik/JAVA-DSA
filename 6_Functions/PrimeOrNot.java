@@ -42,7 +42,7 @@ public class PrimeOrNot {
      * 2. Print the result to the console.
      */
     public static void main(String[] args) {
-        System.out.println(isPrime(5)); // Step 1: Test the isPrime method with 5 and print the result.
+        System.out.println(isPrime(10)); // Step 1: Test the isPrime method with 5 and print the result.
     }
 }
    
