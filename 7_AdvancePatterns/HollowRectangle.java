@@ -23,6 +23,6 @@ public class HollowRectangle {
 
     public static void main(String[] args) {
         // Call the method to print a hollow rectangle with 4 rows and 5 columns
-        hollow_rect(4, 5);
+        hollow_rect(10, 50);
     }
 }
