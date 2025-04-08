@@ -1,39 +1,43 @@
 public class ButterFly {
+    // Method to print the butterfly pattern
     public static void butterfly(int n) {
-        for(int i = 1; i<=n; i++){
-                // stars
-            for(int j = 1; j<=i;j++){
-                System.out.print("*");
+        // First half of the butterfly pattern
+        for (int i = 1; i <= n; i++) {
+            // Print stars on the left side
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*"); // Print a star
             }
-            //spaces
-            for(int j =1; j<=2*(n-i); j++){
-                System.out.print(" ");
+            // Print spaces in the middle
+            for (int j = 1; j <= 2 * (n - i); j++) {
+                System.out.print(" "); // Print a space
             }
-            //stars
-            for(int j = 1; j<=i;j++){
-                System.out.print("*");
+            // Print stars on the right side
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*"); // Print a star
             }
-            System.out.println();
+            System.out.println(); // Move to the next line
         }
-        //2nd half
-      for(int i =n; i>=1; i--){
-            // stars
-            for(int j = 1; j<=i;j++){
-                System.out.print("*");
+
+        // Second half of the butterfly pattern
+        for (int i = n; i >= 1; i--) {
+            // Print stars on the left side
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*"); // Print a star
             }
-            //spaces
-            for(int j =1; j<=2*(n-i); j++){
-                System.out.print(" ");
+            // Print spaces in the middle
+            for (int j = 1; j <= 2 * (n - i); j++) {
+                System.out.print(" "); // Print a space
             }
-            //stars
-            for(int j = 1; j<=i;j++){
-                System.out.print("*");
+            // Print stars on the right side
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*"); // Print a star
             }
-            System.out.println(); 
-      } 
+            System.out.println(); // Move to the next line
+        }
     }
 
+    // Main method to execute the program
     public static void main(String[] args) {
-        butterfly(5);
+        butterfly(5); // Call the butterfly method with n = 5
     }
 }
