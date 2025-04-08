@@ -1,5 +1,46 @@
 
+/**
+ * # Inverted Half Pyramid of Numbers
+ *
+ * This program generates an inverted half pyramid pattern of numbers based on user input.
+ * The pyramid starts with numbers from 1 to n in the first row, and each subsequent row
+ * reduces the count of numbers by one until the last row contains only the number 1.
+ *
+ * ## Class Definition
+ * The class `InvertedHalfPyramidNumber` contains the main method and a helper method
+ * to generate the pyramid pattern.
+ */
+
+/**
+ * Method: InvHlfPydNum
+ * This method generates and prints an inverted half pyramid of numbers.
+ *
+ * @param n The number of rows for the pyramid.
+ *
+ * Steps:
+ * 1. **Outer Loop**: Iterates through the rows of the pyramid.
+ *    - Starts from 1 and goes up to `n` (inclusive).
+ * 2. **Inner Loop**: Prints numbers in each row.
+ *    - Starts from 1 and goes up to `n - i + 1`, where `i` is the current row number.
+ *    - This ensures that the number of elements decreases with each row.
+ * 3. **Print Statement**: Prints the current number followed by a space.
+ * 4. **Line Break**: Moves to the next line after completing a row.
+ */
+
+/**
+ * Main Method
+ * The entry point of the program.
+ *
+ * Steps:
+ * 1. **Scanner Initialization**: Creates a `Scanner` object to read user input.
+ * 2. **User Input**: Prompts the user to enter the number of rows for the pyramid.
+ * 3. **Method Call**: Calls the `InvHlfPydNum` method with the user-provided input.
+ * 4. **Scanner Closure**: Closes the `Scanner` object to release resources.
+ */
 // Define the class for the program
+
+import java.util.Scanner;
+
 public class InvertedHalfPyramidNumber {
 
     // Method to print an inverted half pyramid of numbers
@@ -16,6 +57,11 @@ public class InvertedHalfPyramidNumber {
 
     // Main method to execute the program
     public static void main(String[] args) {
-        InvHlfPydNum(5); // Call the method with 5 rows
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number : ");
+            int a = sc.nextInt();
+            sc.close();
+        
+        InvHlfPydNum(a); // Call the method with 5 rows
     }
 }
