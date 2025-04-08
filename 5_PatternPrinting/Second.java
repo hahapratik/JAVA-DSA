@@ -16,7 +16,7 @@ public class Second {
             // Inner loop for printing asterisks in each line
             for (int j = 1; j <= 5 - line + 1; j++) {
                 // Print an asterisk followed by a space
-                System.out.print(" *");
+                System.out.print("*");
             }
             // Move to the next line after printing all asterisks for the current line
             System.out.println();
