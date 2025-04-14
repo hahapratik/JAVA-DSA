@@ -28,9 +28,9 @@ public class InputInArray {
         // Step 7: Close the Scanner object to release resources
         sc.close(); 
         // Close the scanner to prevent resource leaks
-        int percentage = (Marks[0]+Marks[1]+Marks[2])/3;
-        System.out.println("PERCENTAGE IS = "+percentage+"%");
-        System.out.println("Lenght of Array is = "+Marks.length);
+        int percentage = (Marks[0]+Marks[1]+Marks[2])/3;// by this we can find the prcentage of the number      
+           System.out.println("PERCENTAGE IS = "+percentage+"%");
+        System.out.println("Lenght of Array is = "+Marks.length);// by this we can find the length of the array
     
     }
 }
