@@ -26,6 +26,11 @@ public class InputInArray {
         System.out.println("Physics Marks = " + Marks[2]); // Print Physics marks
 
         // Step 7: Close the Scanner object to release resources
-        sc.close(); // Close the scanner to prevent resource leaks
+        sc.close(); 
+        // Close the scanner to prevent resource leaks
+        int percentage = (Marks[0]+Marks[1]+Marks[2])/3;
+        System.out.println("PERCENTAGE IS = "+percentage+"%");
+        System.out.println("Lenght of Array is = "+Marks.length);
+    
     }
 }
