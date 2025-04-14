@@ -2,17 +2,30 @@ import java.util.Scanner;
 
 public class InputInArray {
     public static void main(String[] args) {
-     int Marks[] = new int[100];
-     Scanner sc = new Scanner(System.in);
-     System.out.print("Enter English Marks :");
-     Marks[0] = sc.nextInt();
-     System.out.print("Enter Maths Marks :");
-     Marks[1] = sc.nextInt();
-     System.out.print("Enter Physics Marks :");
-     Marks[2] = sc.nextInt();
-     System.out.println("English Marks = "+Marks[0]);
-     System.out.println("Maths Marks = "+Marks[1]);
-     System.out.println("Physics Marks = "+Marks[2]);
-     sc.close();
-        }
+        // Step 1: Declare an array to store marks for different subjects
+        int Marks[] = new int[100]; // Array to hold marks, size 100 for flexibility
+
+        // Step 2: Create a Scanner object to take input from the user
+        Scanner sc = new Scanner(System.in); // Scanner for reading user input
+
+        // Step 3: Prompt the user to enter marks for English
+        System.out.print("Enter English Marks :"); // Prompt for English marks
+        Marks[0] = sc.nextInt(); // Store English marks in the first index of the array
+
+        // Step 4: Prompt the user to enter marks for Maths
+        System.out.print("Enter Maths Marks :"); // Prompt for Maths marks
+        Marks[1] = sc.nextInt(); // Store Maths marks in the second index of the array
+
+        // Step 5: Prompt the user to enter marks for Physics
+        System.out.print("Enter Physics Marks :"); // Prompt for Physics marks
+        Marks[2] = sc.nextInt(); // Store Physics marks in the third index of the array
+
+        // Step 6: Display the entered marks for each subject
+        System.out.println("English Marks = " + Marks[0]); // Print English marks
+        System.out.println("Maths Marks = " + Marks[1]); // Print Maths marks
+        System.out.println("Physics Marks = " + Marks[2]); // Print Physics marks
+
+        // Step 7: Close the Scanner object to release resources
+        sc.close(); // Close the scanner to prevent resource leaks
     }
+}
