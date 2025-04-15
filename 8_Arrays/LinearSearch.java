@@ -55,12 +55,12 @@ public class LinearSearch {
      */
     public static void main(String[] args) {
         int num[] = { 2, 4, 6, 8, 10, 12, 14, 16 }; // Define the array
-        int key = 13; // Define the key to search for
+        int key = 12; // Define the key to search for
         int index = linearSearch(num, key); // Call the linearSearch method
         if (index == -1) { // Check if the key was not found
             System.out.println("NOT FOUND"); // Print "NOT FOUND" if the key is not in the array
         } else {
-            System.out.println("Key is at Index " + index); // Print the index of the key if found
+            System.out.println("Key is at Index : " + index); // Print the index of the key if found
         }
     }
 }
