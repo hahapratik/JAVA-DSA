@@ -2,7 +2,8 @@ public class PassingArrayAsArgunment {
     // Method to update the elements of the array
     public static void update(int marks[]) {
         // Loop through each element of the array
-        for (int i = 0; i < marks.length; i++) {
+        for (int i = 0; i < marks.length; i++) // Most important 
+        {
             // Increment each element of the array by 1
             marks[i] = marks[i] + 1;
         }
