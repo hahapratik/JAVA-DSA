@@ -16,7 +16,7 @@ public class Reserve {
 
     public static void main(String[] args) {
         int number[] = { 2, 4, 6, 8, 10, 12, 14 }; // Initialize an array with sample values
-        reserve(number); 
+        reserve(number); // Call the reserve method to reverse the array
         for (int i = 0; i < number.length; i++) { // Loop through the array to print its elements
             System.out.print(number[i] + " "); // Print each element of the reversed array
         }
