@@ -1,16 +1,18 @@
 import java.util.Scanner;
 
 public class Q2 {
-    //Question 2: In a program, input the side of a square You nave to output the area of the square.
+    // Question 2: In a program, input the side of a square. You have to output the area of the square.
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System . in);{
-            System.out.print("Enter the the value of the side of a Square : ");
-            int side = sc.nextInt();
-            int area = side * side ;
-            System.out.print("The area of the Square is : ");
-            System.out.print(area);
-            sc.close();
-        
-        }
+        Scanner sc = new Scanner(System.in); // Create a Scanner object to read input from the user
+
+        System.out.print("Enter the side of a SQUARE : "); // Prompt the user to enter the side of the square
+
+        int side = sc.nextInt(); // Read the integer input for the side of the square
+
+        int area = side * side; // Calculate the area of the square (side * side)
+
+        System.out.println("The area of Square with given side is " + area); // Output the calculated area to the user
+        sc.close();
     }
+    
 }
