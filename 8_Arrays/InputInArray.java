@@ -32,5 +32,19 @@ public class InputInArray {
            System.out.println("PERCENTAGE IS = "+percentage+"%");
         System.out.println("Lenght of Array is = "+Marks.length);// by this we can find the length of the array
     
+        // int marks[] = new int[10];
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter Phy number : ");
+        //  marks[0]= sc.nextInt();
+        // System.out.print("Enter Che number : ");
+        // marks[1] = sc.nextInt();
+        // System.out.print("Enter Bio number : ");
+        // marks[2] = sc.nextInt();
+        // System.out.println("Phy Marks = "+marks[0]);
+        // System.out.println("Che Marks = "+marks[1]);
+        // System.out.println("Bio Marks = "+marks[2]);
+        // int percentage = (marks[0]+marks[1]+marks[2])/3;
+        // System.out.println("Percentage is : " + percentage);
+        // sc.close();
     }
 }
