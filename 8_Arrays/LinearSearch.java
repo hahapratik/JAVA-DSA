@@ -21,9 +21,9 @@ public class LinearSearch {
     /**
      * Linear Search Method
      * 
-     * @param num The array of integers to search in.
-     * @param key The integer value to search for.
-     * @return The index of the key if found; otherwise, -1.
+    //  * @param num The array of integers to search in.
+    //  * @param key The integer value to search for.
+    //  * @return The index of the key if found; otherwise, -1.
      * 
      * Steps:
      * 1. Iterate through the array using a for loop.
