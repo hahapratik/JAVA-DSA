@@ -34,8 +34,8 @@ public class Q3 {
         float c = sc.nextFloat();
         Float total = (a+b+c);
         System.out.println("Total price is : "+total);
-        float tax = total + (0.18f* total);
-        System.out.println("Price after 18%tax : "+tax );
+        float tax = ((a+b+c)*18)/100;
+        System.out.println("Price after 18%tax : "+(total+tax) );
         sc.close();
 
     }
