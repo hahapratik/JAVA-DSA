@@ -10,7 +10,7 @@ public class ForLoop {
         for (int i = 1; i <= 1000; i++) {
 
             // This statement prints "HELLO" to the console in each iteration.
-            System.out.println("Kaise ho ");
+            System.out.println("KHA LEEEEE");
         }
     }
 }
