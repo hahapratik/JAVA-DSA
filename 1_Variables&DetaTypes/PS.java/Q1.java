@@ -1,22 +1,39 @@
 import java.util.Scanner;
-
+// Define the class Q1
 public class Q1 {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); // Create a Scanner object for user input
+        // Create a Scanner object to read input from the user
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter thr value of a : "); // Prompt user to enter value of a
-        float a = sc.nextInt(); // Read integer input and store in float variable 'a'
+        // Prompt and read the price of the pen
+        System.out.print("Enter the price of Pen = ");
+        float a = sc.nextFloat();
 
-        System.out.print("Enter thr value of b : "); // Prompt user to enter value of b
-        float b = sc.nextInt(); // Read integer input and store in float variable 'b'
+        // Prompt and read the price of the pencil
+        System.out.print("Enter the price of Pencil = ");
+        float b = sc.nextFloat();
 
-        System.out.print("Enter thr value of c : "); // Prompt user to enter value of c
-        float c = sc.nextInt(); // Read integer input and store in float variable 'c'
+        // Prompt and read the price of the book
+        System.out.print("Enter the price of book = ");
+        float c = sc.nextFloat();
 
-        float Average = (a + b + c) / 3; // Calculate the average of a, b, and c
+        // Calculate the total sum of all items
+        float sum = a + b + c;
+        System.out.println("The Total price is = " + sum);
 
-        System.out.println(" Average is " + Average); // Display the calculated average
+        // Close the Scanner to free resources
+        sc.close();
 
-        sc.close(); // Close the Scanner to free resources
+        // Calculate the average price of the items
+        float average = (a + b + c) / 3;
+        System.out.println("Average is = " + average);
+
+        // Calculate GST (18% of the total sum)
+        float gst = ((a + b + c) * 18) / 100;
+        System.out.println("Total GST on the purches is = " + gst);
+
+        // Print the total price including GST
+        System.out.print("Total price including GST is = " + (gst + sum));
     }
 }
