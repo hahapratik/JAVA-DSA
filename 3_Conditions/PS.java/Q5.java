@@ -38,3 +38,23 @@ public class Q5 {
         }
     }
 }
+
+// import java.util.Scanner;
+
+// public class Q1 {
+
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the Number = ");
+//         int a = sc.nextInt();
+//         if (a < 0) {
+//             System.out.println("This number is Negitive");
+//         } else if (a == 0) {
+//             System.out.println("The number is Zero");
+//         } else {
+//             System.out.println("The number is Positive");
+//         }
+
+//     }
+// }
