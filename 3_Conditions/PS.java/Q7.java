@@ -104,5 +104,6 @@ public class Q7 {
                 System.out.println("Unvalid");
                 break;
         }
+        sc.close();
     }
 }
