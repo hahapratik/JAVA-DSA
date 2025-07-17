@@ -22,6 +22,14 @@ public class Q2 {
     sc.close();
     // printing the sum
     System.out.println("sum is " + sum);
+    // System.out.println("Enter the number you want sum of : ");
+    // n = sc.nextInt();
+    // while (i<=n) {
+    //     sum+=i;
+    //     i++;
+    // }
+    // sc.close();
+    // System.out.println("Sum is : " +sum);
 }
     }
 }
