@@ -32,4 +32,4 @@ public class Q2 {
     // System.out.println("Sum is : " +sum);
 }
     }
-}
+}//just adding some commits
