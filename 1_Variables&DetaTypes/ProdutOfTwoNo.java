@@ -9,7 +9,7 @@ public class ProdutOfTwoNo {
             a = sc.nextInt();
             System.out.print("Enter the value of b: ");
             b = sc.nextInt();
-            product = a * b;
+            product = a + b;
             System.out.print("Product of a and b: ");
             System.out.println(product);
             sc.close();
