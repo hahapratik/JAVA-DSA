@@ -11,9 +11,10 @@ public class DoWhile {
         //     n++;
         // } while (n <= 10); // Continue the loop while n is less than or equal to 
         int i = 1;
+        int sum = 0;
         do{
             System.out.println(i);
-            i++;
+            sum = sum+i;
         }
         while(i<=10);
     

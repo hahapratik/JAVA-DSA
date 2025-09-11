@@ -1,4 +1,7 @@
 // This is a simple Java program that demonstrates how to use a for loop.
+
+import java.util.Scanner;
+
 public class ForLoop {
 
     // // The main method is the entry point of the program.
@@ -14,7 +17,11 @@ public class ForLoop {
     //     }
     // }
     public static void main(String[] args){
-for(int i = 0; i<=10; i++){
+
+        Scanner sc = new Scanner(System.in);
+        int n;
+        n = sc.nextInt();
+for(int i = 0; i<=n; i++){
     System.out.println(i);
 }
     }
