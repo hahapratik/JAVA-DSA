@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Function_sum {
     public static int calculateAdd(int a , int b){
     int result = a+b;
