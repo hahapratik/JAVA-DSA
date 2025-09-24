@@ -1,3 +1,4 @@
+package ps;
 public class q3 {
     // REVERSE NUMBER
     public static void Rev(int n){
