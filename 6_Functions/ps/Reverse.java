@@ -1,10 +1,10 @@
 package ps;
-public class q3 {
+public class Reverse {
     // REVERSE NUMBER
     public static void Rev(int n){
         int mynum = n;
         int reverse = 0;
-        while(n>0){
+        while(n!=0){
             int lastdigit = n%10;
             reverse = (reverse * 10) + lastdigit ;
             n = n/10;
