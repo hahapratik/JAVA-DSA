@@ -20,7 +20,7 @@ public class Palindrom {
     }
 
     public static void main(String[] args) {
-        Rev(95434597);
+        Rev(98355389);
     }
 }
 
