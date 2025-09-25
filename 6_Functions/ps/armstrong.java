@@ -1,3 +1,4 @@
+package ps;
 public class armstrong {
     public static void armStrong(int n) {
         int sum = 0;
