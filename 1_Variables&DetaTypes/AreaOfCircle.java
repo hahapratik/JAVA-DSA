@@ -8,7 +8,7 @@ public class AreaOfCircle {
       float rad = sc.nextFloat();
       // have to write f after the number couse java will think every decimal number as double 
       float area = 3.14f * rad * rad;
-      System.out.print("The Area of circle: ");
+      System.out.print("The Area of circle is: ");
       System.out.println(area);
       sc.close();
     }
